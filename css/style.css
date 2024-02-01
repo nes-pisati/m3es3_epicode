@@ -4,5 +4,11 @@
 }
 
 .jumbotron {
-    height: 90vh;
+    height: 100vh;
+    /*76px altezza navbar*/
+}
+
+.week-offer {
+    background-color: aquamarine;
+    height: 100vh;
 }
