@@ -21,8 +21,9 @@
     </head>
 
     <body>
+        <!--HEADER-->
         <header>
-            <nav class="navbar navbar-expand-lg bg-success position-fixed col-12 ">
+            <nav class="navbar navbar-expand-lg position-fixed z-1  col-12 ">
                 <div class="container-fluid ">
                     <img class="logo" src="./assets/logo.jpeg">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,14 +39,14 @@
                           Scopri le offerte
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Offerta della settimana</a></li>
-                          <li><a class="dropdown-item" href="#">Welcome Summer</a></li>
-                          <li><a class="dropdown-item" href="#">Offerta del giorno</a></li>
-                          <li><a class="dropdown-item" href="#">Last Minute</a></li>
+                          <li><a class="dropdown-item" href="#week-offer">Offerta della settimana</a></li>
+                          <li><a class="dropdown-item" href="#welcome-summer">Welcome Summer</a></li>
+                          <li><a class="dropdown-item" href="#day-offer">Offerta del giorno</a></li>
+                          <li><a class="dropdown-item" href="#last-minute">Last Minute</a></li>
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Contatti</a>
@@ -55,27 +56,264 @@
                 </div>
               </nav>
         </header>
+
+        <!--MAIN-->
         <main>
             <div class="jumbotron bg-light rounded-3">
-                <div class="container-fluid py-5">
-                    <h1 class="display-5 fw-bold">Off, Man!</h1>
-                    <p class="col-md-8 fs-4">
-                        Your next trip.
-                    </p>
-                    <button class="btn btn-primary btn-lg" type="button">
-                        Example button
-                    </button>
+                <div class="container-fluid p-0 container-img">
+                  <div class="overlay text-white text-center d-flex flex-column justify-content-center  ">
+                    <h1 class="display-5 fw-bold has-bg-img">Off, Man!</h1>
+                    <p class=" fs-4 has-bg-img">Your next trip.</p>
+                  </div>
                 </div>
             </div>
-            <section class="container-fluid  ">
-                <div class="row">
-                    <div class="week-offer"></div>
-                </div>
-            </section>
         </main>
-        <footer>
-            <!-- place footer here -->
+
+        <!--OFFERTE DELLA SETTIMANA-->
+        <section class="week-offer " id="week-offer">
+          <div class="container">
+            <div class="row justify-content-around ">
+              <div class="">
+                <h2 class="display-5 fw-bold">Le offerte della settimana</h2>
+                <p class="fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus necessitatibus, fuga labore, hic blanditiis deleniti cum sapiente excepturi ipsum libero aliquid saepe nam omnis! Cum nam corporis dicta delectus modi laboriosam quaerat reiciendis a dolore, ex eius autem fuga commodi animi quos praesentium quibusdam nesciunt? Deserunt asperiores sint iure quibusdam.</p>
+              </div>
+            </div>
+          </div>
+          <!--card container-->
+          <div class="container">
+            <div class="row justify-content-around">
+              <!--card1-->
+              <div class="card card-week-offer col-6 col-md-4 col-lg-3">
+                <img src="https://picsum.photos/150" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+
+              <!--card2-->
+              <div class="card card-week-offer  col-6 col-md-4 col-lg-3">
+                <img src="https://picsum.photos/150" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+
+              <!--card3-->
+              <div class="card card-week-offer  col-6 col-md-4 col-lg-3">
+                <img src="https://picsum.photos/150" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+
+              <!--card4-->
+              <div class="card card-week-offer  col-6 col-md-4 col-lg-3">
+                <img src="https://picsum.photos/150" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!--WELCOME SUMMER-->
+        <section class="welcome-summer" id="welcome-summer">
+          <div class="container">
+            <div class="row justify-content-around ">
+              <div class="col">
+                <h2 class="display-5 fw-bold">Welcome Summer!</h2>
+                <p class="fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus necessitatibus, fuga labore, hic blanditiis deleniti cum sapiente excepturi ipsum libero aliquid saepe nam omnis! Cum nam corporis dicta delectus modi laboriosam quaerat reiciendis a dolore, ex eius autem fuga commodi animi quos praesentium quibusdam nesciunt? Deserunt asperiores sint iure quibusdam.</p>
+              </div>
+            </div>
+          </div>
+          <!--card container-->
+          <div class="container mt-5">
+            <div class="row justify-content-around g-2 ">
+              <!--card1-->
+              <div class="card card-welcome-summer col-6 col-md-4 col-lg-2 shadow-sm">
+                <img src="https://picsum.photos/150" class="card-img-top pt-1" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+
+              <!--card2-->
+              <div class="card card-welcome-summer col-6 col-md-4 col-lg-2 shadow-sm">
+                <img src="https://picsum.photos/150" class="card-img-top pt-1" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+
+              <!--card3-->
+              <div class="card card-welcome-summer col-6 col-md-4 col-lg-2 shadow-sm">
+                <img src="https://picsum.photos/150" class="card-img-top pt-1" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+
+              <!--card4-->
+              <div class="card card-welcome-summer col-6 col-md-4 col-lg-2 shadow-sm">
+                <img src="https://picsum.photos/150" class="card-img-top pt-1" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+
+              <!--card5-->
+              <div class="card card-welcome-summer col-6 col-md-4 col-lg-2 shadow-sm">
+                <img src="https://picsum.photos/150" class="card-img-top pt-1" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+
+              <!--card6-->
+              <div class="card card-welcome-summer col-6 col-md-4 col-lg-2 shadow-sm">
+                <img src="https://picsum.photos/150" class="card-img-top pt-1" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!--OFFERTA DEL GIORNO-->
+        <section class="day-offer d-none d-md-block" id="day-offer">
+          <div class="container">
+            <div class="row align-items-center  ">
+              <div class="col-md-12 col-lg-8 ">
+                <img src="https://picsum.photos/700/500" alt="">
+              </div>
+              <div class="day-offer col-md-12 col-lg-4">
+                <h2 class="display-5 fw-bold">Offerta del giorno</h2>
+                <h3>Lorem Ipsum Dolor</h3>
+                <h4>dal 20 aprile al 29 aprile 2024</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum animi repellat, recusandae quasi tenetur ipsa? Adipisci, modi. Officia voluptate temporibus odit dolor quaerat! Doloremque minus natus, odio, fugit maxime consequuntur adipisci voluptatibus commodi ratione aperiam esse? Nisi expedita earum, blanditiis iste dignissimos assumenda, sequi maiores illo dolores corrupti, hic quisquam.</p>
+                <h4>500€</h4>
+                <a href="#" class="btn btn-danger">Scopri di più</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--LAST MINUTE-->
+        <section class="last-minute" id="last-minute">
+          <div class="container">
+            <div class="row">
+              <h2 class="display-5 fw-bold">Offerte Last Minute</h2>
+              <p class="fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quaerat iure reiciendis ullam illum, voluptate ab dolorum, id deserunt quos iusto veniam est aspernatur recusandae delectus autem consequuntur, earum blanditiis?</p>
+            </div>
+          </div>
+          <div class="container mt-5 ">
+            <div class="row justify-content-around">
+              <!--card 1-->
+              <div class="card col-12 col-md-6 col-lg-4">
+                <img src="https://picsum.photos/150" class="card-img-top pt-3" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+              <!--card 2-->
+              <div class="card col-12 col-md-6 col-lg-4">
+                <img src="https://picsum.photos/150" class="card-img-top pt-3" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Lorem Ipsum</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                  <a href="#" class="btn btn-danger">Scopri di più</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--TESTIMONIAL-->
+        <section id="testimonials">
+          <div class="container text-center pb-5 ">
+            <div class="row">
+              <h2 class="display-5 fw-bold pb-5 ">Dicono di noi</h2>
+              <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                <h2 class="fw-normal">Paolo</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+
+              </div>
+              <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                <h2 class="fw-normal">Sara</h2>
+                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+
+              </div>
+              <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                <h2 class="fw-normal">Luca</h2>
+                <p>And lastly this, the third column of representative placeholder content.</p>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="bg-black pt-4 pb-4">
+            <div class="container">
+              <div class="row justify-content-around ">
+                <div class="col-4">
+                  <h2 class="text-white ">Off, Man! Your next trip</h2>
+                </div>
+                <div class="col-4 text-white ">
+                  <ul class="list-unstyled ">
+                    <li>Via Trieste 12, Milano</li>
+                    <li>03304321</li>
+                    <li>offman@trip.com</li>
+                  </ul>
+                  
+                </div>
+                <div class="col-4">
+                  <a href="#" class="btn btn-primary bg-transparent border-white " id="footer-btn">Contattaci!</a>
+                </div>
+              </div>
+            </div>
         </footer>
+
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
